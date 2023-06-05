@@ -1,0 +1,101 @@
+graph {
+	vim -- hidden
+	vim -- characters
+	hidden -- characters
+	vim -- clipboard
+	vim -- ssh
+	clipboard -- ssh
+	vim -- "auto format"
+	vim -- formatting
+	"auto format" -- formatting
+	vim -- commentary
+	vim -- comment
+	commentary -- comment
+	php -- keybind
+	php -- vim
+	keybind -- vim
+	vim -- repeats
+	vim -- string
+	repeats -- string
+	vim -- find
+	vim -- replace
+	find -- replace
+	spelling -- vim
+	spelling -- spell
+	vim -- spell
+	vim -- open
+	vim -- files
+	open -- files
+	vim -- spellcheck
+	vim -- spelling
+	spellcheck -- spelling
+	vim -- paste
+	vim -- copy
+	paste -- copy
+	vim -- columns
+	vim -- len
+	columns -- len
+	vim -- ale
+	vim -- linter
+	ale -- linter
+	vim -- "current file"
+	vim -- files
+	"current file" -- files
+	vim -- comment
+	vim -- plugin
+	comment -- plugin
+	vim -- install
+	vim -- clipboard
+	install -- clipboard
+	vim -- configuration
+	vim -- clipboard
+	configuration -- clipboard
+	vim -- formatting
+	vim -- html
+	formatting -- html
+	vim -- quotes
+	vim -- apostrophes
+	quotes -- apostrophes
+	"line break" -- unix
+	"line break" -- vim
+	unix -- vim
+	vim -- argument
+	vim -- files
+	argument -- files
+	vim -- json
+	vim -- format
+	json -- format
+	vim -- multiline
+	vim -- repeat
+	multiline -- repeat
+	Vim -- eol
+	Vim -- od
+	eol -- od
+	Vim -- comment
+	Vim -- uncomment
+	comment -- uncomment
+	reusable_files -- insert
+	reusable_files -- command
+	insert -- command
+	Vim -- folders
+	Vim -- "file explorer"
+	folders -- "file explorer"
+	partials -- CONFIGS
+	partials -- partials
+	CONFIGS -- partials
+	vim -- limit
+	vim -- length
+	limit -- length
+	markdown -- plugin
+	markdown -- "instant-markdown"
+	plugin -- "instant-markdown"
+	black -- vim
+	black -- formatter
+	vim -- formatter
+	black -- vim
+	black -- formatter
+	vim -- formatter
+	black -- vim
+	black -- formatter
+	vim -- formatter
+}
