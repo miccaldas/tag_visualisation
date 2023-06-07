@@ -29,7 +29,7 @@ snoop.install(watch_extras=[type_watch])
 @snoop
 def answer():
     """
-    Where we ask the user ehat tag he wants to use.
+    Where we ask the user what tag he wants to use.
     """
     answr = input("Choose a tag: ")
     tg = [answr]
@@ -43,8 +43,8 @@ def first_run(tg):
     Based on what tag the user chooses, we'll give
     it as an argument to 'db_data' function, that will
     discover all related tags. The program will run
-    based on the discovered list, and this functio
-    won't run no more.
+    based on the discovered list, and this function
+    won't run any more.
     """
 
     db = db_data(tg)
